@@ -1,0 +1,10 @@
+{
+  "enabledCssSnippets": [
+    "Math"
+  ],
+  "textFontFamily": "Inter",
+  "interfaceFontFamily": "Inter",
+  "monospaceFontFamily": "Inter",
+  "baseFontSize": 15,
+  "accentColor": ""
+}

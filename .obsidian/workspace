@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "d42a3770ca53c8e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "bad43b8ca10db62d",
+        "type": "leaf",
+        "dimension": 27.564102564102566,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Matematyka Elementarna/Brudnopis-do-ćwiczeń.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "ae57a5230ff493f6",
+        "type": "leaf",
+        "dimension": 72.43589743589743,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Matematyka Elementarna/Język Logiki.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "80b58456da534e7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "35846885de0c6f97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17d1c44441d2b59d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c627b94c6ab6286b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4f6fdc41f6fa75c0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d3f2e799b081ca0",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfeb325323b06ec3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca679f869807d9e2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Matematyka Elementarna/Brudnopis-do-ćwiczeń.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a17dba332191d692",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Matematyka Elementarna/Brudnopis-do-ćwiczeń.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbddf0e414f57fc5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e8e071a3d19b8941",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Matematyka Elementarna/Brudnopis-do-ćwiczeń.md"
+              }
+            }
+          },
+          {
+            "id": "b57a4d805be05b87",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "floating": {
+    "id": "31c1d39413e3a63e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "243c5d6696307b37",
+        "type": "window",
+        "children": [
+          {
+            "id": "a39f586de0dce923",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathjax.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 120,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "bad43b8ca10db62d",
+  "lastOpenFiles": [
+    "Matematyka Elementarna/Język logiki 2 electric boogalo.md",
+    "Matematyka Elementarna/Informacje organizacyjne.md",
+    "Matematyka Elementarna/Język Logiki.md",
+    "Matematyka Elementarna/Brudnopis-do-ćwiczeń.md",
+    "Mathjax.md",
+    "Matematyka Elementarna/Zbiory. Kwantyfikatory.md",
+    "Sieci komputerowe/Brudnopis.md",
+    "Bazy danych/Brudnopis.md",
+    "Matematyka Elementarna/Brudnopis.md",
+    "Matematyka Elementarna/Wstęp do matematyki elementarnej.md"
+  ]
+}

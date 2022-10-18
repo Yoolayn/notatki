@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "d42a3770ca53c8e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d5aafcf45bcda1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b31450bd1c654a4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bazy danych/Relacje i encje.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "6bcd640b46ce3add"
+          }
+        ]
+      },
+      {
+        "id": "9e5f4c4fd4697fb3",
+        "type": "split",
+        "children": [
+          {
+            "id": "5e54f07bd88d0ee8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e615c39ae85bcb0d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Bazy danych/Relacje i encje.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                },
+                "group": "6bcd640b46ce3add"
+              }
+            ]
+          },
+          {
+            "id": "c415fac7a7f33dfd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "eb6227e84927469f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Bazy danych/Brudnopis.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "80b58456da534e7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "35846885de0c6f97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17d1c44441d2b59d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c627b94c6ab6286b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4f6fdc41f6fa75c0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d3f2e799b081ca0",
+    "type": "split",
+    "children": [
+      {
+        "id": "dfeb325323b06ec3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca679f869807d9e2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bazy danych/Relacje i encje.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a17dba332191d692",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bazy danych/Relacje i encje.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbddf0e414f57fc5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e8e071a3d19b8941",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bazy danych/Relacje i encje.md"
+              }
+            }
+          },
+          {
+            "id": "b57a4d805be05b87",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "b31450bd1c654a4f",
+  "lastOpenFiles": [
+    "Mathjax.md",
+    "Bazy danych/Relacje i encje.md",
+    "Bazy danych/Brudnopis.md",
+    "Bazy danych/Projektowanie baz danych.md",
+    "Sieci komputerowe/Brudnopis.md",
+    "Bazy danych/Brudnopis-do-labów.md",
+    "Sieci komputerowe/Informacje organizacyjne.md",
+    "Sieci komputerowe/Modele sieci.md",
+    "Wstęp do programowania/Informacje organizacyjne.md",
+    "Bazy danych/Informacje organizacyjna.md"
+  ]
+}
