@@ -76,5 +76,21 @@
 ![[20221014_153515.jpg]]
 ![[20221014_154123.jpg]]
 # Standardy sieciowe
-- internetowe
-- elektroniczne i komunikacyjne
+Standardy internetowe:
+- Internet sociaty
+	- IAB - Internet Architecture Board
+		- IRTF - Internet Research Task Force
+		- IERF - Internet Engineering Task Force
+			- RFC - Request for Comments
+
+Standardy sieciowe
+- ICANN  - Internet Corporation for Assigned Names and Numbers
+- IANA - Internet Assignment Numbers Authority
+	- Adresy IP
+	- Nazwy domen
+	- Numery portów TCP/UDP
+- IEEE - Institude of Electrical and Electronics Engineers
+	- Standardy elektroniczne i komunikacyjne
+		- EIA - Electric Industries Alliance
+		- TIA - Telecommunications Industry Association
+		- ITU-T - International Telecommunication Union Telecommunication Standardization Sector
