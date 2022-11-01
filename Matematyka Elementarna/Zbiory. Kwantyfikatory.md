@@ -73,3 +73,13 @@ Niech $\phi(x)$ będzie funkcją zdaniową o zakresie zmienności X. Wtedy nast�
 Prawa de Morgana
 $$\neg\forall_x\phi(x)\Leftrightarrow\exists_x\neg\phi(x)\ (\neg\forall_x\phi(x)\equiv\exists_x\neg\phi(x))$$
 $$\neg\exists_x\phi(x)\Leftrightarrow\forall_x\neg\phi(x)\ (\neg\exists_x\phi(x)\equiv\forall_x\neg\phi(x))$$
+
+#### przykład
+Niech $\phi(x)$ będzie funkcją zdaniową o zakresie zeminności X. Wtedy następujące wyrażenie są prawami rachunku kwantyfikatorów
+
+$\forall_x\phi(x)\Rightarrow\exists_x\phi(x)$
+Prawa de Morgana
+$\forall_x\phi(x)\Leftrightarrow\exists_x\neg\phi(x)(\neg\forall_x\phi(x)\equiv\exists_x\neg\phi(x))$
+$\neg\exists_x\phi(x)\Leftrightarrow\forall_x\neg\phi(x)(\neg\exists_x\phi(x)\equiv\forall_x\neg\phi(x))$
+Niech $\phi(x)$ i $\psi(x)$ będą funkcjami zdaniowymi o zkaresie zmienności X. Wtedy następujące wyrażenia są prawami rachunku kwatyfikatorów.
+1. $\forall_x(\phi(x)\land\psi(x))\Leftrightarrow\forall_x\phi(x)\land$
