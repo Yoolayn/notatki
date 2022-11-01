@@ -82,4 +82,21 @@ Prawa de Morgana
 $\forall_x\phi(x)\Leftrightarrow\exists_x\neg\phi(x)(\neg\forall_x\phi(x)\equiv\exists_x\neg\phi(x))$
 $\neg\exists_x\phi(x)\Leftrightarrow\forall_x\neg\phi(x)(\neg\exists_x\phi(x)\equiv\forall_x\neg\phi(x))$
 Niech $\phi(x)$ i $\psi(x)$ będą funkcjami zdaniowymi o zkaresie zmienności X. Wtedy następujące wyrażenia są prawami rachunku kwatyfikatorów.
-1. $\forall_x(\phi(x)\land\psi(x))\Leftrightarrow\forall_x\phi(x)\land$
+1. $\forall_x(\phi(x)\land\psi(x))\Leftrightarrow\forall_x\phi(x)\land\forall_x\psi(x)$
+2. $\exists_x(\phi(x)\lor\psi(x))\Leftrightarrow\phi(x)\lor\exists_x\psi(x)$
+3. $\exists_x(\phi(x)\land\psi(x))\Rightarrow\exists_x\phi(x)\land\exists_x\psi(x)$
+4. $\forall_x\phi(x)\lor\forall_x\psi(x)\Rightarrow\forall_x(\phi(x)\lor\psi(x))$
+
+
+$\neg(p\Rightarrow q)\equiv (p\land\neg q)$
+- $\phi(x):4, \psi(x): x$ jest liczbą pierwszą
+- $\phi(x): x$ liczba parzysta, $\psi(x):x$liczba nie parzysta
+
+Niech $\psi(x, y)$ będzie funkcją zdaniową o zakresie zmiennych $x\in X$ oraz $y\in Y$, gdzie X i Y są niepustymi zbiorami
+$\forall_x\forall_y\phi(x, y)\Leftrightarrow\forall_x\forall_y\psi(x,y)$
+$L\equiv D_y=X-Y\equiv P$
+istnieje na przykład $x_0$, że $\forall_y$ jest prawdziwa
+$\exists_x\forall_y\phi(x,y)\not\Leftarrow\forall_y\exists_x\phi(x,y)$
+$\forall_y\exists_x\phi(x,y)\Rightarrow\exists_x\forall_y\phi(x,y)\equiv p\land\neg q$
+$\forall_y\exists_xx+y=0$
+$\exists_x\forall_yx+y = 0$ - fałszywe
