@@ -1,4 +1,4 @@
-# Zdanie:
+# Zdanie
 	zdanie to wyrażenie logiczne, na które można odpowiedzieć bez zastanawiania się nad szczegółami
 
 ---

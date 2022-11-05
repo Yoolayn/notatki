@@ -6,6 +6,8 @@ $\neg(p\land q)\Leftrightarrow\neg p\lor\neg q$
 	- zdanie logiczne można "odwrócić" jeżeli jest znegowane
 	- jeżeli spełnia warunek to wtedy trzeba odwrócić znak i/lub na odwrotny i negację zmienić z całego zdania na osobne słowa
 
+[[Język Logiki#Sprawdzanie Tautologii|Przykład sprawdzania tautologii]]
+
 ---
 
 # Prawo idempotentności alternatywy i koniunkcji

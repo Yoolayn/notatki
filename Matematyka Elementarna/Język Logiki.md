@@ -1,78 +1,19 @@
 [[Matematyka Elementarna/Informacje organizacyjne|]]
-# Język logiki
+# Zdanie
+[[Zdania logiczne i spójniki#Zdanie:|zdanie]]
 
-## zdania
-Język logiki zajmuje się zdaniami, którym można przypisać wartość logiczną, czyli stwierdzić czy jest ono prawidziwe(T) czy fałszywe(F)
+# spójniki
 
-- oznaczenia zdań: p, q, r, s
+ 1. $\neg$ lub $\sim$ - [[Zdania logiczne i spójniki#Negacja|negacja]] 
+ 3. $\land$ - [[Zdania logiczne i spójniki#Koniunkcja|koniunkcja]]
+ 4. $\lor$ - [[Zdania logiczne i spójniki#Alternatywa|alternatywa]]
+ 5. $\Rightarrow$ lub $\rightarrow$ - [[Zdania logiczne i spójniki#Implikacja|negacja]]
+ 6. $\Leftrightarrow$ lub $\leftrightarrow$ - [[Zdania logiczne i spójniki#Równoważność|równoważność]]
 
-## spójniki
-
- 1. $\neg$ lub $\sim$ - negacja
- 2. $\land$ - koniunkcja
- 3. $\lor$ - alternatywa
- 4. $\Rightarrow$ lub $\rightarrow$ - implikacja
- 5. $\Leftrightarrow$ lub $\leftrightarrow$ - równoważność
-
-### czytanie spójników
-1. $\neg p$ lub $\sim p$ - "nie p" lub "nie prawda p"
-2. $p\land q$ - "p i q"
-3. $p\lor q$ - "p lub q"
-4. $p\Rightarrow q$ lub $p\rightarrow q$ - "p implikuje q" lub "jeśli p to q"
-5. $p\Leftrightarrow q$ lub $p\leftrightarrow q$ - "p wtedy i tylko wtedy, gdy q"
-
-### wartości spójników
-
-#### Koniunkcja
-
-|  p  |  q  | $p\land q$ |
-|:---:|:---:|:----------:|
-|  T  |  T  |     T      |
-|  T  |  F  |     F      |
-|  F  |  T  |     F      |
-|  F  |  F  |     F      |
-
-#### Alternatywa
-|  p  |  q  | $p\lor q$ |
-|:---:|:---:|:---------:|
-|  T  |  T  |     T     |
-|  T  |  F  |     T     |
-|  F  |  T  |     T     |
-|  F  |  F  |     F     | 
-
-#### Negacja
-|  p  | $\neg$$ p |
-|:---:|:---------:|
-|  T  |     F     |
-|  F  |     T     | 
-
-#### implikacja
-|  p  |  q  | p$\Rightarrow$q |
-|:---:|:---:|:----------------:|
-|  T  |  T  |        T         |
-|  T  |  F  |        F         |
-|  F  |  T  |        T         |
-|  F  |  F  |        T         | 
-
-#### Równoważność
-|  p  |  q  | p$\Leftrightarrow$q |
-|:---:|:---:|:-------------------:|
-|  T  |  T  |          T          |
-|  T  |  F  |          F          |
-|  F  |  T  |          F          |
-|  F  |  F  |          F          | 
-
-### Tautologia
-#### Prawa de Morgana
-(1)$$\neg (p \lor q) \Leftrightarrow \neg p \land \neg q$$
-(2)$$\neg (p \land q) \Leftrightarrow \neg p \lor \neg q$$
-
-	(1) - nie (p lub q), gdy nie p i nie q 
-	(2) - nie (p i q), gdy nie p lub nie q
-
-	Rozumiem to jako, że gdy pomnoży się słowa p jak i q przez negację to odwraca się znaki or i and
-
-#### Sprawdzanie Tautologii
+## Tautologia
+### Prawa de Morgana
+[[Prawa Logiki#Prawa de Morgana|Prawa de Morgana]]
+### Sprawdzanie Tautologii
 Aby sprawdzić czy dane zdanie jest tautologią trzeba sprawdzić wartości tego zdania dla każdej możliwej wariacji słów występujących w tym zdaniu. Sprawdza się to rozpisując to w tabeli, w tym przykładzie rozpiszę tabelę dla tego przykładu:
 $$\phi = \neg (p \lor q) \Leftrightarrow \neg q \land \neg q$$
 
@@ -95,7 +36,7 @@ kolejnym przykładem jest:$$\neg (p \land q) \Rightarrow \neg p \land \neg q$$
 |  0  |  0  |    1     |    1     |         1         |           1           |                         1                         | 
 
 W ostatniej kolumnie pojawiły się dwie wartości fałsz (0), oznacza to, że to zdanie nie jest tautologią
-### Formuły logicznie równoważne - prawa logiczne
+## Formuły logicznie równoważne - prawa logiczne
 Formuły $\phi$ i $\psi$ są logicznie równoważne jeżeli zdanie $\phi \Leftrightarrow \psi$ jest tautologią.
 Takie zdanie zapisuje się jako $\phi \equiv \psi$
 
@@ -112,7 +53,7 @@ przykład:
 |  F  |  F  |  T  |      F      |          F           |     F      |     T      |              F              |
 |  F  |  F  |  F  |      F      |          F           |     F      |     F      |              F              | 
 Kolumny 5 jak i ostatnia mają takie same wyniki co oznacza, że są równoważne
-#### Podstawowe prawa logiczne
+### Podstawowe prawa logiczne
 <div style="float: left">
 	<table>
 		<tr>
@@ -160,7 +101,7 @@ Kolumny 5 jak i ostatnia mają takie same wyniki co oznacza, że są równoważn
 </div>
 <div style="clear:both"></div>
 
-##### wykorzystanie prawa wyłączonego środka w dowodzeniu
+#### wykorzystanie prawa wyłączonego środka w dowodzeniu
 Czy istnieją liczby niewymierne a i b, takie że $a^b$ jest liczbą wymierną? Odpowiedź: tak
 
 *Dowód*. liczba $c=(\sqrt2)^\sqrt2$. Zgodnie z prawem wyłączonego środka są dwie możliwości
@@ -172,7 +113,7 @@ Czy istnieją liczby niewymierne a i b, takie że $a^b$ jest liczbą wymierną? 
 > $$((\sqrt2)^\sqrt2)^\sqrt2=(\sqrt2)^{\sqrt2\times\sqrt2}=2$$
 
 a i b nie zostały wskazane ale wiemy, że istnieją podobno
-#### Inna ważne prawa logiczne i ich dowody -cd.
+### Inna ważne prawa logiczne i ich dowody -cd.
 1. $(p \Rightarrow q) \equiv \neg p \lor q$ - prawo eliminacji implikacji
 2. $\neg (p \Rightarrow q) \equiv p \land \neg q$ - prawo negacji implikacji
 3. $(p \Rightarrow q) \equiv (\neg q\Rightarrow \neg p )$ - prawo kontrapozycji (transpozycji)
@@ -180,7 +121,7 @@ a i b nie zostały wskazane ale wiemy, że istnieją podobno
 5. $[(p \Rightarrow q) \land (q \Rightarrow r)] \Rightarrow (p \Rightarrow r)$ - prawo przechodniości implikacji
 6. $(p \Leftrightarrow q) \equiv (p \Rightarrow q) \land (q \Rightarrow p)$ - prawo eliminacji równoważności
 
-##### Dowód prawa eliminacji implikacji
+#### Dowód prawa eliminacji implikacji
 $(p \Rightarrow q) \equiv \neg p \lor q$
 
 dowód:
@@ -192,7 +133,7 @@ dowód:
 |  0  |  1  |    1     |        1        |         1         |                          1                          |
 |  0  |  0  |    1     |        1        |         1         |                          1                          | 
 
-##### Dowód prawa negacji implikacji
+#### Dowód prawa negacji implikacji
 $\neg (p \Rightarrow q) \equiv p \land \neg q$
 
 dowód:
@@ -200,7 +141,7 @@ dowód:
 $\neg(p \Rightarrow q) \equiv \neg(\neg p \lor q)$
 $\neg(p \Rightarrow q) \equiv p \land \neg q$
 
-##### Dowód prawa kontrapozycji
+#### Dowód prawa kontrapozycji
 $(p \Rightarrow q) \equiv \neg p \lor q$
 $(p \Rightarrow q) \equiv q \lor \neg p$
 $(p \Rightarrow q) \equiv \neg (\neg q) \lor \neg p$

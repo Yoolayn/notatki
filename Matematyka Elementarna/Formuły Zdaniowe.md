@@ -1,8 +1,10 @@
 # Co to są formuły zdaniowe?
 > formuły	zdaniowe to zdania które są bedziej złożone na przykład z użyciem [[Zdania logiczne i spójniki#Spójniki logiczne|spójników]]
 
-- do oznaczania takich zdań często się używa liter $\phi$ i $\psi$
-- zdania prostsze które wchodzą w skład tych zdań złożonych oznacza się literami:
+## Oznaczenia zdań
+do oznaczania takich zdań często się używa liter $\phi$ i $\psi$
+### Oznaczenia prostszych zdań
+zdania prostsze które wchodzą w skład tych zdań złożonych oznacza się literami:
 	1. p
 	2. q
 	3. r
@@ -10,7 +12,7 @@
 
 ---
 
-### Przykład:
+## Przykład:
 
 Trójka rodzeństwa oświadczyła:
 - Janek: Franek zawsze kłamie (p)
