@@ -7,3 +7,4 @@ Zalecam użycie go aby widzieć wszystko bez problemu
 
 Po instalacji i otwarciu, trzeba wybrać opcję "open folder as vault" i zaznaczyć folder który powstał po sklonowaniu z gita
 ---
+Linki działają tylko w obsidianie, w innych markdown viewerach nie będą
