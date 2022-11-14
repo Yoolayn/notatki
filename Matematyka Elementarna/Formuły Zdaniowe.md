@@ -1,3 +1,10 @@
+- [[#Oznaczenia zdań|Oznaczenia zdań]]
+	- [[#Oznaczenia zdań#Oznaczenia prostszych zdań|Oznaczenia prostszych zdań]]
+- [[#Przykład:|Przykład:]]
+- [[#Tautologia|Tautologia]]
+- [[#Sprzeczna|Sprzeczna]]
+
+
 # Co to są formuły zdaniowe?
 > formuły	zdaniowe to zdania które są bedziej złożone na przykład z użyciem [[Zdania logiczne i spójniki#Spójniki logiczne|spójników]]
 
