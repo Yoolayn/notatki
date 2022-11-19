@@ -1,4 +1,5 @@
-# Prawa de Morgana
+# Prawa zmieniające zdania w inne
+## Prawa de Morgana
 
 $\neg(p\lor q)\Leftrightarrow\neg p\land \neg q$
 $\neg(p\land q)\Leftrightarrow\neg p\lor\neg q$
@@ -10,7 +11,7 @@ $\neg(p\land q)\Leftrightarrow\neg p\lor\neg q$
 
 ---
 
-# Prawo idempotentności alternatywy i koniunkcji
+## Prawo idempotentności alternatywy i koniunkcji
 
 $p\lor p\equiv p$
 $p\land p\equiv p$
@@ -19,7 +20,7 @@ oznacza to, że prawa [[Matematyka Elementarna/Zdania logiczne i spójniki#Alter
 
 ---
 
-# Podwójnej negacji
+## Podwójnej negacji
 
 $\neg(\neg p)\equiv p$
 
@@ -27,7 +28,7 @@ zanegowana negacja przestaje działać, czyli minus i minus daje plus
 
 ---
 
-# Przemienności alternatywy i koniunkcji
+## Przemienności alternatywy i koniunkcji
 
 $p \lor q \equiv q \lor p$
 $p \land q \equiv q \land p$
@@ -36,7 +37,7 @@ $p \land q \equiv q \land p$
 
 ---
 
-# Łączności alternatywy i koniunckji
+## Łączności alternatywy i koniunckji
 
 $(p\lor q)\lor r \equiv p \lor (q \lor r)$
 $(p\land q)\land r \equiv p \land (q \land r)$
@@ -45,7 +46,7 @@ działania [[Matematyka Elementarna/Zdania logiczne i spójniki#Koniunkcja|koniu
 
 ---
 
-# Rozdzielności
+## Rozdzielności
 
 $(p \lor q)\lor r \equiv(p \lor q)\land(p \lor q)$
 $(p \land q)\land r \equiv(p \land q)\lor(p \land q)$
@@ -54,7 +55,7 @@ Rozdzielczość oznacza, że [[Matematyka Elementarna/Zdania logiczne i spójnik
 
 ---
 
-# Pochłaniania
+## Pochłaniania
 
 $p \lor(p\land q)\equiv p$
 $p \land(p\lor q)\equiv p$
@@ -65,7 +66,7 @@ wynik p lub (p i q) daje wynik p, wynik p i (p lub q) daje wynik p daje wynik p 
 
 ---
 
-# Wyłączonego środka, sprzeczności
+## Wyłączonego środka, sprzeczności
 
 $p \lor \neg p\equiv \boldsymbol{T}$
 $p \land \neg p\equiv \boldsymbol{F}$
@@ -74,15 +75,15 @@ słowo i znegowane słowo zawsze będą przeciwne sobie, dlatego używając [[Ma
 
 ---
 
-# Eliminacji implikacji
+## Eliminacji implikacji
 
-$p \Rightarrow q) \equiv \neg p \lor q$
+$p \Rightarrow q \equiv \neg p \lor q$
 
 można wyeliminować [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikację]] poprzez zanegowanie pierwszego słowa co zmienia [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikację]] w [[Matematyka Elementarna/Zdania logiczne i spójniki#Alternatywa|alternatywę]]
 
 ---
 
-# Negacji implikacji
+## Negacji implikacji
 
 $\neg(p\Rightarrow q)\equiv p \land \neg q$
 
@@ -90,7 +91,7 @@ podobnie do [[Matematyka Elementarna/Prawa Logiki#Eliminacji implikacji|eliminac
 
 ---
 
-# Kontrapozycji (transpozycji)
+## Kontrapozycji (transpozycji)
 
 $(p\Rightarrow q)\equiv (\neg q\Rightarrow\neg p)$
 
@@ -98,7 +99,7 @@ pozwala to zmienić słowa w [[Matematyka Elementarna/Zdania logiczne i spójnik
 
 ---
 
-# Odrywania
+## Odrywania
 
 $[(p\Rightarrow q)\land p]\Rightarrow q$
 
@@ -106,7 +107,7 @@ wynikiem implikacji słowa p ze słowem q i słowa p wynikiem są wyniki słowa 
 
 ---
 
-# Przechodniości implikacji 
+## Przechodniości implikacji
 
 $[(p\Rightarrow q)\land(q\Rightarrow r)]\Rightarrow(p\Rightarrow r)$
 
@@ -114,8 +115,66 @@ implikacja słowa p ze słowem q i implikacja słowa q ze słowem r można zapis
 
 ---
 
-# Eliminacji równoważności
+## Eliminacji równoważności
 
 $(p\Leftrightarrow q)\equiv(p\Rightarrow q)\land(q \Rightarrow p)$
 
 [[Matematyka Elementarna/Zdania logiczne i spójniki#równoważność|równoważność]] można usunąć zmieniając ją w [[Matematyka Elementarna/Zdania logiczne i spójniki#Koniunkcja|koniunkcję]] dówch odwrotnych [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikacji]] ($p \Rightarrow q$ i $q \Rightarrow p$)
+
+# Przdatne tautologie, które można dodawać do dowodów formalnych
+
+## Wprowadzanie alternatywy
+
+$p \Rightarrow (p \lor q)$
+
+---
+
+## opuszczenie koniunkcji
+
+$(p \land q) \Rightarrow p$
+
+---
+
+## Sprowadzenie do sprzeczności
+
+$(p \Rightarrow 0)\Rightarrow \neg p$
+
+---
+
+## Modus ponendo ponens
+
+$[p \land (p \Rightarrow q)]\Rightarrow q$
+
+---
+
+## Modus tollendo tollens
+
+$[(p \lor q )\land \neg p ]\Rightarrow q$
+$p \Rightarrow[q \Rightarrow (p \land q)]$
+
+---
+
+## Przechodniść równoważnośc
+
+$[(p \Leftrightarrow q)\land(q \Leftrightarrow r)]\Rightarrow(p \Leftrightarrow r)$
+
+---
+## Przechodniość implikacji
+
+$[(p \Rightarrow q)\land(q \Rightarrow r)]\Rightarrow (p \Rightarrow r)$
+$(p \Rightarrow q) \Rightarrow [( p \lor r ) \Rightarrow (q \lor r)]$
+$(p \Rightarrow q) \Rightarrow [( p \land r ) \Rightarrow (q \land r)]$
+$(p \Rightarrow q) \Rightarrow [(q \Rightarrow r) \Rightarrow (p \Rightarrow r)]$
+
+---
+
+## Prawa dylematu konstrukcyjnego
+
+$[(p \Rightarrow q)\land(r \Rightarrow s)]\Rightarrow[(p \lor r)\Rightarrow(q \lor s)]$
+$[(p \Rightarrow q) \land ( r \Rightarrow s )] rr [ (p \land r) \Rightarrow (q \lor s) ]$
+
+---
+
+## Prawa dylematu destrukcyjnego
+
+$[(p \Rightarrow q) \land (r \Rightarrow s)]\Rightarrow[(\neg \lor \neg s) \Rightarrow (\neg p \lor \neg r)]$
