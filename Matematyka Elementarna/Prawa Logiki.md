@@ -120,3 +120,61 @@ implikacja słowa p ze słowem q i implikacja słowa q ze słowem r można zapis
 $(p\Leftrightarrow q)\equiv(p\Rightarrow q)\land(q \Rightarrow p)$
 
 [[Matematyka Elementarna/Zdania logiczne i spójniki#równoważność|równoważność]] można usunąć zmieniając ją w [[Matematyka Elementarna/Zdania logiczne i spójniki#Koniunkcja|koniunkcję]] dówch odwrotnych [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikacji]] ($p \Rightarrow q$ i $q \Rightarrow p$)
+
+# Przdatne tautologie, które można dodawać do dowodów formalnych
+
+## Wprowadzanie alternatywy
+
+$p \Rightarrow (p \lor q)$
+
+---
+
+## opuszczenie koniunkcji
+
+$(p \land q) \Rightarrow p$
+
+---
+
+## Sprowadzenie do sprzeczności
+
+$(p \Rightarrow 0)\Rightarrow \neg p$
+
+---
+
+## Modus ponendo ponens
+
+$[p \land (p \Rightarrow q)]\Rightarrow q$
+
+---
+
+## Modus tollendo tollens
+
+$[(p \lor q )\land \neg p ]\Rightarrow q$
+$p \Rightarrow[q \Rightarrow (p \land q)]$
+
+---
+
+## Przechodniść równoważnośc
+
+$[(p \Leftrightarrow q)\land(q \Leftrightarrow r)]\Rightarrow(p \Leftrightarrow r)$
+
+---
+## Przechodniość implikacji
+
+$[(p \Rightarrow q)\land(q \Rightarrow r)]\Rightarrow (p \Rightarrow r)$
+$(p \Rightarrow q) \Rightarrow [( p \lor r ) \Rightarrow (q \lor r)]$
+$(p \Rightarrow q) \Rightarrow [( p \land r ) \Rightarrow (q \land r)]$
+$(p \Rightarrow q) \Rightarrow [(q \Rightarrow r) \Rightarrow (p \Rightarrow r)]$
+
+---
+
+## Prawa dylematu konstrukcyjnego
+
+$[(p \Rightarrow q)\land(r \Rightarrow s)]\Rightarrow[(p \lor r)\Rightarrow(q \lor s)]$
+$[(p \Rightarrow q) \land ( r \Rightarrow s )] rr [ (p \land r) \Rightarrow (q \lor s) ]$
+
+---
+
+## Prawa dylematu destrukcyjnego
+
+$[(p \Rightarrow q) \land (r \Rightarrow s)]\Rightarrow[(\neg \lor \neg s) \Rightarrow (\neg p \lor \neg r)]$
