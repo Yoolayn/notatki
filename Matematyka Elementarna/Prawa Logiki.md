@@ -48,8 +48,8 @@ działania [[Matematyka Elementarna/Zdania logiczne i spójniki#Koniunkcja|koniu
 
 ## Rozdzielności
 
-$(p \lor q)\lor r \equiv(p \lor q)\land(p \lor q)$
-$(p \land q)\land r \equiv(p \land q)\lor(p \land q)$
+$(p \lor q)\lor r \equiv(p \lor q)\land(p \lor r)$
+$(p \land q)\land r \equiv(p \land q)\lor(p \land r)$
 
 Rozdzielczość oznacza, że [[Matematyka Elementarna/Zdania logiczne i spójniki#Alternatywa|alternatywy]] i [[Matematyka Elementarna/Zdania logiczne i spójniki#Koniunkcja|koniunkcja]] działają podobnie do mnożenia przez nawiasy
 
@@ -120,6 +120,8 @@ implikacja słowa p ze słowem q i implikacja słowa q ze słowem r można zapis
 $(p\Leftrightarrow q)\equiv(p\Rightarrow q)\land(q \Rightarrow p)$
 
 [[Matematyka Elementarna/Zdania logiczne i spójniki#równoważność|równoważność]] można usunąć zmieniając ją w [[Matematyka Elementarna/Zdania logiczne i spójniki#Koniunkcja|koniunkcję]] dówch odwrotnych [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikacji]] ($p \Rightarrow q$ i $q \Rightarrow p$)
+
+---
 
 # Przdatne tautologie, które można dodawać do dowodów formalnych
 
