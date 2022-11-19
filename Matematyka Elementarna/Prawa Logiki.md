@@ -9,6 +9,14 @@ $\neg(p\land q)\Leftrightarrow\neg p\lor\neg q$
 
 [[Język Logiki#Sprawdzanie Tautologii|Przykład sprawdzania tautologii]]
 
+dodatkowe permutacje na podstawie de Morgana:
+
+	jak zmienić p lub q ktore nie sa znegowane i podobne, dzięki prawu podwójnej negacji. Głównie ja napisałem, żebym nie musiał tego 300 razy wyliczać, ale jest to łatwe do zrobienia
+
+$(p \lor q) \Leftrightarrow \neg(\neg p \land \neg q)$
+$(\neg p \lor q) \Leftrightarrow \neg(p \land \neg q)$
+$(p \lor \neg q) \Leftrightarrow \neg(\neg p \land q)$
+
 ---
 
 ## Prawo idempotentności alternatywy i koniunkcji
@@ -78,8 +86,9 @@ słowo i znegowane słowo zawsze będą przeciwne sobie, dlatego używając [[Ma
 ## Eliminacji implikacji
 
 $p \Rightarrow q \equiv \neg p \lor q$
+$p \Rightarrow q \equiv p \land \neg q$
 
-można wyeliminować [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikację]] poprzez zanegowanie pierwszego słowa co zmienia [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikację]] w [[Matematyka Elementarna/Zdania logiczne i spójniki#Alternatywa|alternatywę]]
+można wyeliminować [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikację]] poprzez zanegowanie pierwszego słowa co zmienia [[Matematyka Elementarna/Zdania logiczne i spójniki#implikacja|implikację]] w [[Matematyka Elementarna/Zdania logiczne i spójniki#Alternatywa|alternatywę]] lub negując drugie słowo i robiąc z tego [[Matematyka Elementarna/Zdania logiczne i spójniki#Koniunkcja|koniunkcję]]
 
 ---
 
@@ -123,6 +132,17 @@ $(p\Leftrightarrow q)\equiv(p\Rightarrow q)\land(q \Rightarrow p)$
 
 ---
 
+# Dodatkowe spoza wykładu
+
+	wzięte z etrapeza
+
+---
+
+## Sprowadzenie do absurdu
+
+$(p \Rightarrow q)\Leftrightarrow [(p \land \neg q)\Rightarrow 0]$
+
+---
 # Przdatne tautologie, które można dodawać do dowodów formalnych
 
 ## Wprowadzanie alternatywy
@@ -173,10 +193,10 @@ $(p \Rightarrow q) \Rightarrow [(q \Rightarrow r) \Rightarrow (p \Rightarrow r)]
 ## Prawa dylematu konstrukcyjnego
 
 $[(p \Rightarrow q)\land(r \Rightarrow s)]\Rightarrow[(p \lor r)\Rightarrow(q \lor s)]$
-$[(p \Rightarrow q) \land ( r \Rightarrow s )] rr [ (p \land r) \Rightarrow (q \lor s) ]$
+$[(p \Rightarrow q) \land ( r \Rightarrow s )] \Rightarrow [ (p \land r) \Rightarrow (q \lor s) ]$
 
 ---
 
 ## Prawa dylematu destrukcyjnego
 
-$[(p \Rightarrow q) \land (r \Rightarrow s)]\Rightarrow[(\neg \lor \neg s) \Rightarrow (\neg p \lor \neg r)]$
+$[(p \Rightarrow q) \land (r \Rightarrow s)]\Rightarrow[(\neg q \lor \neg s) \Rightarrow (\neg p \lor \neg r)]$
