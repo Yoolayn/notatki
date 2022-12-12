@@ -6,3 +6,4 @@
 \Leftrightarrow
 \Rightarrow
 {x_1,x_2}
+{x_1,x_2}
